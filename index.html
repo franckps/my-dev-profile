@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Francisco Pereira</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/da445869c8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const handleMenuClick = (elm) => elm?.classList?.toggle("active");
+    </script>
+  </head>
+  <body>
+    <main class="content" id="main-container">
+      <nav class="navigation">
+        <section class="logo-section">
+          <a href="/" class="logo">
+            <i>&lt;</i><span>Francisco</span><i>&gt;</i>
+          </a>
+        </section>
+        <button class="menu-trigger active" onclick="handleMenuClick(this)">
+          <i class="fa-solid fa-bars do-open"></i
+          ><i class="fa-solid fa-x do-close"></i>
+        </button>
+        <ul class="menu">
+          <li class="menu-item"><a href="#aboutme-section">About Me</a></li>
+          <li class="menu-item"><a href="#myskills-section">Skills</a></li>
+          <li class="menu-item"><a href="#mywork-section">Projects</a></li>
+          <li class="menu-item"><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <main class="main-content">
+        <section class="title-section">
+          <header class="title-description">
+            <h1>Francisco Pereira</h1>
+            <h2>Backend Developer</h2>
+            <p>
+              Backend developer looking for ideas and new chalenges to solve
+            </p>
+          </header>
+          <aside class="title-image">
+            <span>
+              <img
+                src="./assets/my profile photo.jpeg"
+                alt="My profile photo"
+              />
+            </span>
+          </aside>
+        </section>
+        <section class="aboutme-section" id="aboutme-section">
+          <span class="aboutme-icon"></span>
+          <aside class="aboutme-text">
+            A few years ago, I became interested in IT stuff and started a
+            technical course. Being there I realized that it wasn't like I
+            thought, but I became in love with programming. Since then, I have
+            been steadily improving my skills. Now I am developing APIs and web
+            applications, and I love what I do.
+          </aside>
+        </section>
+        <section class="myskills-section" id="myskills-section">
+          <h3 class="section-title">My Skills</h3>
+          <ul class="myskills-list">
+            <li class="myskills-item">
+              <span><i class="devicon-nodejs-plain"></i></span>
+              <span>NODEJS</span>
+            </li>
+            <li class="myskills-item">
+              <span><i class="devicon-typescript-plain"></i></span>
+              <span>TYPESCRIPT</span>
+            </li>
+            <li class="myskills-item">
+              <span><i class="devicon-javascript-plain"></i></span>
+              <span>JAVASCRIPT</span>
+            </li>
+            <li class="myskills-item">
+              <span><i class="devicon-react-plain"></i></span>
+              <span>REACT</span>
+            </li>
+            <li class="myskills-item">
+              <span><i class="devicon-css3-plain"></i></span>
+              <span>CSS3</span>
+            </li>
+            <li class="myskills-item">
+              <span><i class="devicon-html5-plain"></i></span>
+              <span>HTML5</span>
+            </li>
+            <li class="myskills-item">
+              <span><i class="devicon-git-plain"></i></span>
+              <span>GIT</span>
+            </li>
+          </ul>
+        </section>
+        <section class="mywork-section" id="mywork-section">
+          <h3 class="section-title">My Work</h3>
+          <ul class="mywork-list">
+            <li class="mywork-item">
+              <h3>Move it</h3>
+              <p>REACTJS, TS, CSS</p>
+              <article
+                title="An app to help you doing exercises during work or study time, using chalanges that makes all proccess more fun"
+              >
+                An app to help you doing exercises during work or study time,
+                using chalanges that makes all proccess more fun
+              </article>
+              <a href="https://moveit-pi-coral.vercel.app">See more →</a>
+            </li>
+            <li class="mywork-item">
+              <h3>Questionnaire Api</h3>
+              <p>TS, REST</p>
+              <article
+                title="A Rest API to create questionnaires about some topic and add how many questionas you whant, and then answer those"
+              >
+                A Rest API to create questionnaires about some topic and add how
+                many questionas you whant, and then answer those
+              </article>
+              <a href="https://github.com/franckps/questionnaire_api"
+                >See more →</a
+              >
+            </li>
+            <li class="mywork-item">
+              <h3>Research Me</h3>
+              <p>TS, REST</p>
+              <article
+                title="A Rest api to create reseraches to be answer and generates stats about the answers given about it"
+              >
+                A Rest api to create reseraches to be answer and generates stats
+                about the answers given about it
+              </article>
+              <a href="https://github.com/franckps/researchme_api"
+                >See more →</a
+              >
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="contacts" id="contacts">
+        <section class="text-section">
+          <a href="#main-container" class="logo">
+            <i>&lt;</i><span>Francisco</span><i>&gt;</i>
+          </a>
+          <article>
+            I'm a very good dev and if you whant to share knowledge or take
+            some, contact-me.
+          </article>
+        </section>
+        <section class="contacts-section">
+          <h3>Contacts</h3>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <span><i class="devicon-github-plain"></i></span>
+              <span>franckps</span>
+            </li>
+            <li class="contacts-item">
+              <span><i class="devicon-linkedin-plain"></i></span>
+              <span>franciscop2s/</span>
+            </li>
+            <li class="contacts-item">
+              <span>
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+              <span>fran.p.s@hotmail.com</span>
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </main>
+  </body>
+</html>
