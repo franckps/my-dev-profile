@@ -20,6 +20,7 @@
     ></script>
     <script>
       const handleMenuClick = (elm) => elm?.classList?.toggle("active");
+      const toggleDarkMode = () => document.body.classList?.toggle("dark");
     </script>
   </head>
   <body>
@@ -29,6 +30,15 @@
           <a href="" class="logo">
             <i>&lt;</i><span>Francisco</span><i>&gt;</i>
           </a>
+        </section>
+        <section class="dark_mode_button_section">
+          <input type="checkbox" id="dark_mode" hidden onchange="toggleDarkMode()">
+          <label for="dark_mode" class="dark_mode_button">
+            <span>
+              <i class="fa-sharp fa-solid fa-sun"></i>
+              <i class="fa-solid fa-moon"></i>
+            </span>
+          </label>
         </section>
         <button class="menu-trigger active" onclick="handleMenuClick(this)">
           <i class="fa-solid fa-bars do-open"></i
