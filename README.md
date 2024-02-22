@@ -7,27 +7,13 @@
 ## Light Mode
 
 <section>
-<style>
-    .img-size {
-        height: 300px;
-        display: inline-block;
-        object-fit: contain;
-    }
-</style>
-<img class="img-size" src="./doc/assets/Light Mode Desktop.gif" />
-<img class="img-size" src="./doc/assets/Light Mode Mobile.gif" />
+<img width="540" src="./doc/assets/Light Mode Desktop.gif" />
+<img width="188" src="./doc/assets/Light Mode Mobile.gif" />
 </section>
 
 ## Dark Mode
 
 <section>
-<style>
-    .img-size {
-        height: 300px;
-        display: inline-block;
-        object-fit: contain;
-    }
-</style>
-<img class="img-size" src="./doc/assets/Dark Mode Desktop.gif" />
-<img class="img-size" src="./doc/assets/Dark Mode Mobile.gif" />
+<img width="540" src="./doc/assets/Dark Mode Desktop.gif" />
+<img width="188" src="./doc/assets/Dark Mode Mobile.gif" />
 </section>
